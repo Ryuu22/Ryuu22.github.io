@@ -1,8 +1,82 @@
 {
-    "data": [ {
-        "image" : "resources/TinyDungeon.png",
-        "title" : "Tiny Dungeon",
-        "description" : "A small dungeon crawler game made in Raylib." 
+    "data": [ 
+        {
+            "image" : "resources/TinyDungeon.png",
+            "title" : "Tiny Dungeon",
+            "description" : "A small dungeon crawler game made in Raylib.",
+            "link" : "google.com",
+            "tags" : ["GameDev"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "My Game",
+            "description": "A fun and exciting game that will keep you entertained for hours!",
+            "link": "https://mygame.com",
+            "tags" : ["GameDev"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Space Shooter",
+            "description": "A classic arcade-style space shooter game with modern graphics.",
+            "link": "https://spaceshooter.com",
+            "tags" : ["Backend"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Fantasy RPG",
+            "description": "An epic role-playing game set in a magical world of dragons and wizards.",
+            "link": "https://fantasyrpg.com",
+            "tags" : ["Backend"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Puzzle Game",
+            "description": "A brain-teasing puzzle game that will test your logic and problem-solving skills.",
+            "link": "https://puzzlegame.com",
+            "tags" : ["FullStack", "GameDev"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Platformer",
+            "description": "A classic platformer game with challenging levels and retro graphics.",
+            "link": "https://platformer.com",
+            "tags" : ["Backend"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Sports Game",
+            "description": "A realistic sports game that lets you play your favorite sport with friends.",
+            "link": "https://sportsgame.com",
+            "tags": ["GameDev", "FullStack"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Card Game",
+            "description": "A fun and addictive card game that will keep you coming back for more.",
+            "link": "https://cardgame.com",
+            "tags" : ["FullStack"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Racing Game",
+            "description": "A high-speed racing game with realistic physics and stunning graphics.",
+            "link": "https://racinggame.com",
+            "tags" : ["FullStack", "GameDev"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Adventure Game",
+            "description": "An epic adventure game that will take you on a journey through a magical world.",
+            "link": "https://adventuregame.com",
+            "tags" : ["FullStack"]
+        },
+        {
+            "image": "resources/TinyDungeon.png",
+            "title": "Fighting Game",
+            "description": "A fast-paced fighting game with a wide variety of characters and special moves.",
+            "link": "https://fightinggame.com",
+            "tags" : ["FullStack"]
         }
+        
     ]
 }
