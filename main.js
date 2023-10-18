@@ -4,7 +4,7 @@ const buttonContainer = document.getElementById("button-container");
 const tags = new Map([
            [ "All", {"name" : "All", "color" : "#000000" }],
            [ "FullStack", {"name" : "Full Stack", "color" : "#98bb26" }],
-           [ "Backend", {"name" : "Back End", "color" : "#cc241d" }],
+           [ "BackEnd", {"name" : "Back End", "color" : "#cc241d" }],
            [ "GameDev", {"name" : "Game Development", "color" : "#458588" }]
         ]);
 let cachedData = [];
