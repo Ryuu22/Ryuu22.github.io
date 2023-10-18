@@ -1,0 +1,124 @@
+/* Color variables */
+:root {
+    --main-bg-color: #282828;
+    --secondary-bg-color: #3c3836;
+    --main-text-color: #ebdbb2;
+    --main-hover-color: #afcc53;
+    --main-hover-text-color: #faeecf;
+    --primary-color: #98bb26;
+}
+
+html {
+    background-color: var(--main-bg-color);
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ebdbb2;
+}
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 1024px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+
+#navbar {
+    width: 100%;
+    grid-area: nav;
+}
+
+.ryuu-navbar {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    list-style: none;
+}
+
+.ryuu-button {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border: none;
+    color: var(--main-hover-text-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: inline-flex;
+}
+
+.ryuu-button:hover {
+    background-color: var(--main-hover-color);
+    color: var(--main-hover-text-color);
+}
+
+#content-grid {
+    grid-area: content;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat( auto-fit, minmax(360px, 3fr) );
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--secondary-bg-color);
+    border-radius: 12px;
+}
+
+.card-image {
+    background-image: url("../resources/TinyDungeon.png");
+    min-width: 300px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
+
+.text-body > h4 {
+    text-align:center;
+    margin: 0;
+    padding: 5px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text-body > p {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    max-height: 32px;
+    text-overflow: ellipsis;
+}
+
+.tag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 5px;
+}
+
+.tag {
+    background-color: var(--primary-color);
+    color: var(--main-hover-text-color);
+    border-radius: 6px;
+    padding: 4px;
+    margin: 2px;
+    font-size: 10px;
+    font-weight: 400;
+}
