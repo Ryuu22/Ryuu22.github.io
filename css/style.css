@@ -10,7 +10,6 @@
 
 html {
     background-color: var(--main-bg-color);
-    margin-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ebdbb2;
 }
@@ -27,8 +26,67 @@ html {
 
 #navbar {
     width: 100%;
+    padding-top: 80px;
     grid-area: nav;
 }
+
+#header { 
+    width: 100%;
+    position: absolute;
+}
+
+#header > h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 5px;
+    font-weight: 600;
+}
+
+#header > h2 {
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+#socials {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+
+}
+
+.social {
+    color: var(--main-text-color);
+    text-decoration: none;
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
 
 .ryuu-navbar {
     overflow: hidden;
