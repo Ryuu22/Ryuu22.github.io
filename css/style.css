@@ -52,6 +52,61 @@ html {
     font-weight: 200;
 }
 
+#detail-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    /* blur */
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+}
+
+#modal-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--secondary-bg-color);
+    border-radius: 12px;
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#modal-title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+#modal-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#modal-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    /* Use linear gradient to darken the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px 12px 0 0;
+}
+
 #socials {
     position: absolute;
     right: 0;

@@ -73,6 +73,16 @@ function generateCardElement(data) {
     cardTextElement.innerHTML = data.description;
     cardBodyElement.appendChild(cardTextElement);
 
+    let seeMoreElement = document.createElement("p");
+    seeMoreElement.className = "see-more";
+    seeMoreElement.innerHTML = "See More";
+
+    seeMoreElement.onclick = function () {
+        openModal(data.title, data.image, data.description);
+    }
+    cardBodyElement.appendChild(seeMoreElement);
+
+
     let tagContainer = generateTagBadges(data.tags);
     cardBodyElement.appendChild(tagContainer);
 
