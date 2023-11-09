@@ -6,12 +6,17 @@
     --main-hover-color: #afcc53;
     --main-hover-text-color: #faeecf;
     --primary-color: #98bb26;
+    --link-color: #458588;
 }
 
 html {
     background-color: var(--main-bg-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ebdbb2;
+}
+
+a {
+    color: var(--link-color);
 }
 
 .wrapper {
@@ -108,12 +113,23 @@ html {
     height: 80%;
 }
 
+
 .modal-content {
     height: 80%;
+    width: 80%;
+    margin: auto;
     padding-top: 5rem;
     padding-left: 3rem;
     padding-right: 3rem;
     overflow-y: scroll;
+}
+
+.modal-content > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 12px;
 }
 
 #socials {
@@ -243,7 +259,7 @@ html {
     padding: 2rem;
     font-size: 16px;
     font-weight: 400;
-    max-height: 32px;
+    max-height: 8px;
     text-overflow: ellipsis;
 }
 
