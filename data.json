@@ -1,1 +1,54 @@
-{"data":[{"id":null,"title":"Tiny Dungeon","description":"Tiny Dungeon is a game I am working on in my free time. The game is very Work In Progress and it's not expected to be launched before 2023 ends. It is a 2D top down dungeon crawler rogue-like. It is written in c++ using raylib.\n<br> <br>\n<img src=\"https://raw.githubusercontent.com/Ryuu22/tiny-dungeon-public/master/resources/PlayerAttackAnimation.gif\">\n\n<a href=\"https://github.com/Ryuu22/tiny-dungeon-public\"> Public Repository </a>","link":"https://github.com/Ryuu22/tiny-dungeon-public","image":"resources/TinyDungeon.png","tags":["GameDev"]},{"id":null,"title":"Untitled Fishing Game","description":"A fishing game made with unity. Currently On hold.\n<br>\nIn this game, you'll be able to explore a vast open world filled with various species of fish and build your own ships to traverse the seas.\n<br>\nThe game development was paused because it took a lot of effort to create 3D assets without a proper 3D artist. \n<br>\nWe are now focusing on a different game that doesn't require too much asset creation.\n<br>\nI attempted to do a very small devlog that you can <a href=\"https://www.youtube.com/watch?v=MBplc05srW0\">watch here</a>\n<br>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MBplc05srW0?si=u85pmgdL5BPQWzhg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>","link":"https://www.youtube.com/watch?v=MBplc05srW0","image":"resources/Nakkshi.png","tags":["GameDev"]},{"id":null,"title":"RC Club","description":"iOS RC simulation game made in the unity engine. <br><br><br>\n\nI worked in this game when I was working for <a href=\"https://abylight.com/\"> abylight studios </a>\n<br>\n\nThere is a game trailer here:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zDOn3PlCqGA?si=ofPyAWa8alXMb1NX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n","link":"https://apps.apple.com/us/app/rc-club-ar-racing-simulator/id1282280666","image":"resources/rcclub.webp","tags":["GameDev"]},{"id":null,"title":"Mindkeeper: The lurking fear","description":"An appleWatch/iOS dungeon-crawler game made in a custom engine.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xU8BWOZf7iE?si=zeY-LGUUazaPYXqB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n<br><br>\nConsider this cutting-edge game we engineered specifically for the initial Apple Watch models. The remarkable aspect that caught the attention of many users was its ability to deliver a three-dimensional gaming experience directly on their wrists. To achieve this feat, the development team embarked on a challenging journey of intricate optimizations, implementing unconventional techniques to overcome the inherent limitations of the early Apple Watch hardware.\n<br><br>\nThe endeavor demanded a meticulous balance between performance and resource utilization, pushing the boundaries of what was conventionally achievable on such compact and constrained devices. Through a dedicated pursuit of creative solutions, the team successfully delivered a visually impressive gaming experience that defied the expectations of wearable technology at the time.","link":"https://apps.apple.com/us/app/mindkeeper-the-lurking-fear/id1473252201","image":"resources/mindkeeper.jpg","tags":["GameDev"]},{"id":null,"title":"Santote","description":"Santote is a farm to table Service from South Korea.\n<br><br>\nI was primarily responsible for overseeing and managing the backend operations of Santote, a distinguished farm-to-table service committed to delivering the freshest products directly from the Korean countryside to the discerning consumer. My role involved intricately handling and optimizing the technical aspects that powered the platform, ensuring seamless connectivity between the various components of the service.\n<br><br>\nRegrettably, despite our unwavering dedication and commitment to providing a unique and high-quality agricultural experience, Santote had to discontinue its operations. This unfortunate decision was necessitated by the lack of third-party funding crucial for sustaining and expanding the service. Despite the challenges, the endeavor remains a testament to the innovative vision and commitment to quality that drove Santote's mission.","link":"https://santote.com/","image":"resources/Santote.png","tags":["BackEnd"]}]}
+{
+    "data": [
+        {
+            "id": null,
+            "title": "Tiny Dungeon",
+            "description": "Tiny Dungeon is a game I am working on in my free time. The game is very Work In Progress and it's not expected to be launched before 2023 ends. It is a 2D top down dungeon crawler rogue-like. It is written in c++ using raylib.\n<br> <br>\n<img src=\"https://raw.githubusercontent.com/Ryuu22/tiny-dungeon-public/master/resources/PlayerAttackAnimation.gif\">\n\n<a href=\"https://github.com/Ryuu22/tiny-dungeon-public\"> Public Repository </a>",
+            "link": "https://github.com/Ryuu22/tiny-dungeon-public",
+            "image": "resources/TinyDungeon.png",
+            "tags": [
+                "GameDev"
+            ]
+        },
+        {
+            "id": null,
+            "title": "Untitled Fishing Game",
+            "description": "A fishing game made with unity. Currently On hold.\n<br>\n<br><br>\nIn this game, you'll be able to explore a vast open world filled with various species of fish and build your own ships to traverse the seas.\n<br>\n<br>\nThe game development was paused because it took a lot of effort to create 3D assets without a proper 3D artist. \n<br>\nWe are now focusing on a different game that doesn't require too much asset creation.\n<br>\nI attempted to do a very small devlog that you can <a href=\"https://www.youtube.com/watch?v=MBplc05srW0\">watch here</a>\n<br>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MBplc05srW0?si=u85pmgdL5BPQWzhg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "link": "https://www.youtube.com/watch?v=MBplc05srW0",
+            "image": "resources/Nakkshi.png",
+            "tags": [
+                "GameDev"
+            ]
+        },
+        {
+            "id": null,
+            "title": "RC Club",
+            "description": "iOS RC simulation game made in the unity engine. <br><br><br>\n\nI worked in this game when I was working for <a href=\"https://abylight.com/\"> abylight studios </a>\n<br>\n\nThere is a game trailer here:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zDOn3PlCqGA?si=ofPyAWa8alXMb1NX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n",
+            "link": "https://apps.apple.com/us/app/rc-club-ar-racing-simulator/id1282280666",
+            "image": "resources/rcclub.webp",
+            "tags": [
+                "GameDev"
+            ]
+        },
+        {
+            "id": null,
+            "title": "Mindkeeper: The lurking fear",
+            "description": "An appleWatch/iOS dungeon-crawler game made in a custom engine.<br>\n<br>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xU8BWOZf7iE?si=zeY-LGUUazaPYXqB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n<br><br>\nConsider this cutting-edge game we engineered specifically for the initial Apple Watch models. The remarkable aspect that caught the attention of many users was its ability to deliver a three-dimensional gaming experience directly on their wrists. To achieve this feat, the development team embarked on a challenging journey of intricate optimizations, implementing unconventional techniques to overcome the inherent limitations of the early Apple Watch hardware.\n<br><br>\nThe endeavor demanded a meticulous balance between performance and resource utilization, pushing the boundaries of what was conventionally achievable on such compact and constrained devices. Through a dedicated pursuit of creative solutions, the team successfully delivered a visually impressive gaming experience that defied the expectations of wearable technology at the time.",
+            "link": "https://apps.apple.com/us/app/mindkeeper-the-lurking-fear/id1473252201",
+            "image": "resources/mindkeeper.jpg",
+            "tags": [
+                "GameDev"
+            ]
+        },
+        {
+            "id": null,
+            "title": "Santote",
+            "description": "Santote is a farm to table Service from South Korea.\n<br><br>\nI was primarily responsible for overseeing and managing the backend operations of Santote, a distinguished farm-to-table service committed to delivering the freshest products directly from the Korean countryside to the discerning consumer. My role involved intricately handling and optimizing the technical aspects that powered the platform, ensuring seamless connectivity between the various components of the service.\n<br><br>\nRegrettably, despite our unwavering dedication and commitment to providing a unique and high-quality agricultural experience, Santote had to discontinue its operations. This unfortunate decision was necessitated by the lack of third-party funding crucial for sustaining and expanding the service. Despite the challenges, the endeavor remains a testament to the innovative vision and commitment to quality that drove Santote's mission.",
+            "link": "https://santote.com/",
+            "image": "resources/Santote.png",
+            "tags": [
+                "BackEnd"
+            ]
+        }
+    ]
+}

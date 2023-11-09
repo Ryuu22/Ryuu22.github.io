@@ -1,4 +1,4 @@
-const currentBranch = "dev";
+const currentBranch = "master";
 const grid = document.getElementById("content-grid");
 const buttonContainer = document.getElementById("button-container");
 const tags = new Map([
