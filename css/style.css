@@ -113,7 +113,6 @@ a {
     height: 80%;
 }
 
-
 .modal-content {
     height: 80%;
     width: 80%;
@@ -129,6 +128,14 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    border-radius: 12px;
+}
+
+.modal-content > iframe {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 12px;
 }
 
@@ -254,12 +261,13 @@ a {
 
 .text-body > p {
     overflow: hidden;
-    white-space: nowrap;
     margin: 0;
     padding: 2rem;
     font-size: 16px;
+    white-space: nowrap;
+    max-height: 0px;
     font-weight: 400;
-    max-height: 8px;
+    max-width: 100%;  
     text-overflow: ellipsis;
 }
 
