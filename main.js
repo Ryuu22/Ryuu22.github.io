@@ -1,4 +1,4 @@
-
+const currentBranch = "dev";
 const grid = document.getElementById("content-grid");
 const buttonContainer = document.getElementById("button-container");
 const tags = new Map([
@@ -73,7 +73,7 @@ function generateCardElement(data) {
     cardTextElement.innerHTML = data.description;
     cardBodyElement.appendChild(cardTextElement);
 
-    let seeMoreElement = document.createElement("p");
+    let seeMoreElement = document.createElement("span");
     seeMoreElement.className = "see-more";
     seeMoreElement.innerHTML = "See More";
 
@@ -114,8 +114,7 @@ function main() {
     // load data.json
     grid.innerHTML = "";
     appendButtonsToContainer();
-    loadData("https://raw.githubusercontent.com/Ryuu22/Ryuu22.github.io/master/data.json");
-
+    loadData(`https://raw.githubusercontent.com/Ryuu22/Ryuu22.github.io/${currentBranch}/data.json`);
 }
 
 function sortByTag(tagname) {

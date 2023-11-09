@@ -87,13 +87,6 @@ html {
     font-weight: 600;
 }
 
-#modal-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
 #modal-image {
     position: absolute;
     top: 0;
@@ -105,6 +98,22 @@ html {
     background-size: cover;
     background-position: center;
     border-radius: 12px 12px 0 0;
+}
+
+#modal-body {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.modal-content {
+    height: 80%;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    overflow-y: scroll;
 }
 
 #socials {
@@ -140,6 +149,21 @@ html {
 
 .icon:hover {
     opacity: 0.8;
+}
+
+
+.see-more {
+    font-size: smaller;
+    font-style: italic;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.see-more:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
@@ -200,6 +224,10 @@ html {
     border-radius: 12px 12px 0 0;
 }
 
+.text-body {
+    position: relative;
+}
+
 .text-body > h4 {
     text-align:center;
     margin: 0;
@@ -218,6 +246,7 @@ html {
     max-height: 32px;
     text-overflow: ellipsis;
 }
+
 
 .tag-container {
     display: flex;

@@ -6,12 +6,11 @@ const modalImage = document.getElementById('modal-image');
 
 function openModal(title, image, content) {
     modalBody.innerHTML = '';
-    // background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../resources/TinyDungeon.png");
     modalImage.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.7), rgba(60,56,54,1)), url(" + image + ")";
     modalTitle.innerHTML = title;
 
 
-    createModalBody(image, content);
+    createModalBody(content);
     detailModal.style.display = 'block';
 }
 
