@@ -288,3 +288,25 @@ a {
     font-size: 10px;
     font-weight: 400;
 }
+
+.steam-widget-wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 720px;
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+.steam-widget-wrapper > h2 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.steam-widget {
+    min-width: 350px;
+    width: 100%;
+    min-height: 190px;
+}
